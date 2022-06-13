@@ -4,27 +4,15 @@
   justify-content: center;
   align-items: center;
   font-size: 24px;
-  background-color: #5a5a5a;
+  background-color: #2c2323;
   color: white;
   flex: 1;
 
   margin: 4px;
   border-radius: 20px;
-  background-image: linear-gradient(
-    to right,
-    #ff8008 0%,
-    #ffc837 51%,
-    #ff8008 100%
-  );
 
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   box-shadow: 0 0 20px #eee;
-}
-
-.button-wrap:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
 }

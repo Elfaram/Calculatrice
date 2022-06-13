@@ -19,7 +19,7 @@ const App = () => {
     setText('');
     setResultat('');
   };
-  const buttonColor = 'rgb(220, 126,4)';
+  const buttonColor = '#b62808';
   return (
     <div className='App'>
       <div className='calc'>
@@ -34,7 +34,7 @@ const App = () => {
           <Button symbol='6' handleClick={addText} />
           <Button symbol='5' handleClick={addText} />
           <Button symbol='4' handleClick={addText} />
-          <Button symbol='x' handleClick={addText} color={buttonColor} />
+          <Button symbol='*' handleClick={addText} color={buttonColor} />
         </div>
         <div className='row'>
           <Button symbol='3' handleClick={addText} />
@@ -46,9 +46,9 @@ const App = () => {
           <Button symbol='0' handleClick={addText} />
           <Button symbol='.' handleClick={addText} />
           <Button symbol='=' handleClick={calculateResult} />
-          <Button symbol='-' />
+          <Button symbol='-' color={buttonColor} />
         </div>
-        <Button symbol='C' handleClick={resetInput} />
+        <Button symbol='C' handleClick={resetInput} color='#830505' />
       </div>
     </div>
   );
