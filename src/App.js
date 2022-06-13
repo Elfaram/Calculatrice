@@ -45,7 +45,7 @@ const App = () => {
         <div className='row'>
           <Button symbol='0' handleClick={addText} />
           <Button symbol='.' handleClick={addText} />
-          <Button symbol='=' handleClick={calculateResult} />
+          <Button symbol='=' handleClick={calculateResult} color='#8c3737' />
           <Button symbol='-' color={buttonColor} />
         </div>
         <Button symbol='C' handleClick={resetInput} color='#830505' />
